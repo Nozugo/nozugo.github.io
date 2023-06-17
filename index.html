@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/index-style.css">
+    <!-- Cabin, Inter, Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Inter:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- Bars (Hamburger Menu) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./assets/js/index-style.js"></script>
+    <title>Review 101</title>
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <img src="assets/images/MS.png" alt="" style="margin-top: 10px;">
+        </a>
+        <a href="" class="hamburger-menu" style="display: none; color: white;" onclick="return hamburgerFunc();">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="dropdown-menu" id="dropdown-menu">
+        <a href="">
+            <p>Home</p>
+        </a>
+        <a href="">
+            <p>About</p>
+        </a>
+        <a href="">
+            <p>Contact</p>
+        </a>
+    </div>          
+
+    <div class="banner">
+        <div class="banner-title">
+            <div class="banner-title-container">
+                <div class="banner-title-subcontainer">
+                    <h1 class="title">Hello <span>There</span></h1>
+                    <h1>👋</h1>
+                </div>
+                <div class="banner-lines-title"></div>
+            </div>
+            <button class="banner-btn">Explore</button>
+        </div>
+        <div class="banner-img">
+            <img id="img-1" src="assets/images/img-1.jpg" alt="">
+            <img id="img-2" src="assets/images/img-2.jpg" alt="">
+            <img id="img-3" src="assets/images/img-3.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="about-me">
+        <div class="about-me-title">
+            <h1>Who Am I?</h1>
+            <div class="about-me-lines"></div>
+        </div>
+        <div class="about-me-body">
+            <img src="assets/images/saitama.jpg" alt="">
+            <div class="about-me-text">
+                <p>I am a beginner autodidak web developer. Right now I am studying at Pembangunan Jaya University with Informatics Major.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
