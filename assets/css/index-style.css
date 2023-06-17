@@ -38,7 +38,7 @@ ul li {
     margin-left: 50px;
 }
 ul li a:hover {
-    color: #654E92;
+    color: #8b6cc9;
 }
 
 ul li a {
@@ -47,7 +47,7 @@ ul li a {
     font-size: 20px;
 }
 
-.dropdown-menu {
+.sidebar-menu {
     width: 300px;
     height: 100%;
     /* background: rgba(6, 9, 14, 0.8);
@@ -59,13 +59,16 @@ ul li a {
     z-index: 4;
     display: none;
 }
-.dropdown-menu p {
+.sidebar-menu p {
     color: white;
+}
+.sidebar-menu p:hover {
+    background-color: #654E92;
 }
 /* Banner */
 
 .title span {
-    color:#654E92;
+    color: #8b6cc9;
     margin-right: 5px;
 }
 
@@ -288,21 +291,33 @@ ul li a {
         margin-top: 8px;
     }
 
+    .banner {
+        height: 500px;
+    }
     .banner-title-container {
-        margin-top: 0;
+        margin-top: 100;
     }
     .banner-title-container h1 {
         font-size: 2rem;
     }
 
-    .dropdown-menu {
-        /* display: block !important; */
+    /* Sidebar */
+    .sidebar-menu {
+        /* display: block !important; */ 
         box-shadow: -2px 1px 5px rgb(33, 33, 33);
     }
-    .dropdown-menu a {
-        text-decoration: none;
+    .sidebar-menu div {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
     }
-    .dropdown-menu p {
+    .sidebar-menu div:hover {
+        background-color: #654E92;
+    }
+    .sidebar-menu a {
+        text-decoration: none;
+        color: white;
         margin-left: 20px;
         font-size: 18px;
     }
@@ -323,8 +338,14 @@ ul li a {
         height: 100px;
     }
 
+    .about-me-title {
+        height: 80px;
+    }
     .about-me-title h1 {
         font-size: 25px;
+    }
+    .about-me-body {
+        margin-top: 50px;
     }
     .about-me-body img {
         width: 150px;
