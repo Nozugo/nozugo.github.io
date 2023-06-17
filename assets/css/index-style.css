@@ -50,6 +50,7 @@ ul li a {
 .sidebar-menu {
     width: 300px;
     height: 100%;
+    display: none;
     /* background: rgba(6, 9, 14, 0.8);
     backdrop-filter: blur(20px); */
     background-color: #302645;
@@ -57,7 +58,6 @@ ul li a {
     top: 68px;
     right: 0;
     z-index: 4;
-    display: none;
 }
 .sidebar-menu p {
     color: white;

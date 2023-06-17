@@ -19,8 +19,6 @@ function disableHamburgerFunc(x) {
 
     if (x.matches) {
         sidebar.style.display = "none";
-    } else {
-        sidebar.style.display = "block";
     }
 }
 
