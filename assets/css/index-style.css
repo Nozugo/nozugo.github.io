@@ -318,20 +318,18 @@ ul li a:active {
         /* display: block !important; */ 
         box-shadow: -3px 2px 5px rgb(33, 33, 33);
     }
-    .sidebar-menu div {
+    .sidebar-menu a {
+        display: block;
         width: 100%;
         height: 50px;
-        display: flex;
-        align-items: center;
-    }
-    .sidebar-menu div:hover {
-        background-color: rgb(101, 78, 146);
-    }
-    .sidebar-menu a {
         text-decoration: none;
         color: white;
-        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
         font-size: 18px;
+    }
+    .sidebar-menu a:hover {
+        background-color: rgb(101, 78, 146);
     }
 
     .banner-img {
