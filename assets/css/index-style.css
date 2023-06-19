@@ -298,10 +298,8 @@ ul li a:active {
     .hamburger-menu:hover {
         background-color: #654E92;
     }
-    .hamburger-menu-lines {
-        width: 30px;
-    }
     .line-1, .line-2, .line-3 {
+        width: 30px;
         display: block !important;
         height: 3px;
         background-color: white;
