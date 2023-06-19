@@ -281,18 +281,25 @@ ul li a:active {
     nav ul {
         display: none;
     }
+
     #hamburger-menu-container {
         width: 60px;
         height: 70px; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block !important;
         background-color: transparent; 
     }
     .hamburger-menu {
+        height: 70px;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .hamburger-menu:hover {
+        background-color: #654E92;
+    }
+    .hamburger-menu-lines {
         width: 30px;
-        display: block !important;
-        /* margin-right: 20px; */
     }
     .line-1, .line-2, .line-3 {
         display: block !important;
