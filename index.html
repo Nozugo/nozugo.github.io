@@ -10,9 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Inter:wght@500&family=Poppins&display=swap" rel="stylesheet">
     
-    <!-- Bars (Hamburger Menu) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <title>Review 101</title>
 </head>
 <body>
@@ -20,11 +17,13 @@
         <a href="#">
             <img src="assets/images/MS.png" alt="" style="margin-top: 10px;">
         </a>
-        <a href="" class="hamburger-menu" style="display: none; color: white;" onclick="return hamburgerFunc();">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
-        </a>
+        <div id="hamburger-menu-container">
+            <a href="" class="hamburger-menu" style="display: none; color: white;" onclick="return hamburgerFunc();">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </a>
+        </div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>

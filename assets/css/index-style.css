@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins';
+    background: rgb(6, 9, 14);
 }
 
 /* Navbar */    
@@ -32,19 +33,20 @@ ul {
     margin-right: 50px;
     list-style-type: none;
 }
-
 ul li {
     float: left;
     margin-left: 50px;
 }
-ul li a:hover {
-    color: #8b6cc9;
-}
-
 ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+ul li a:hover {
+    color: #8b6cc9;
+}
+ul li a:active {
+    opacity: 0.5;
 }
 
 .sidebar-menu {
@@ -53,7 +55,7 @@ ul li a {
     display: none;
     /* background: rgba(6, 9, 14, 0.8);
     backdrop-filter: blur(20px); */
-    background-color: #302645;
+    background-color: rgb(48, 38, 69);
     position: fixed;
     top: 68px;
     right: 0;
@@ -75,7 +77,6 @@ ul li a {
 .banner {
     width: 100%;
     height: 800px;
-    background-color: #06090e;
     background-color: rgb(6, 9, 14);
     display: flex;
     flex-direction: row-reverse;
@@ -160,7 +161,6 @@ ul li a {
     box-shadow: 0px 1px 5px #654E92;
     cursor: pointer;
 }
-
 .banner-btn:hover {
     padding: 20px;
     border-radius: 10px;
@@ -169,6 +169,9 @@ ul li a {
     background-color: #654E92;
     color: white;
     transition: background-color 0.2s, color 0.2s;
+}
+.banner-btn:active {
+    opacity: 0.6;
 }
 
 /* About Me */
@@ -269,18 +272,23 @@ ul li a {
 
 }
 
-@media only screen and (min-width: 570px) {
-}
-
 @media only screen and (max-width: 570px) {
 
     nav ul {
         display: none;
     }
+    #hamburger-menu-container {
+        width: 60px;
+        height: 70px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent; 
+    }
     .hamburger-menu {
         width: 30px;
         display: block !important;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
     .line-1, .line-2, .line-3 {
         display: block !important;
@@ -304,7 +312,7 @@ ul li a {
     /* Sidebar */
     .sidebar-menu {
         /* display: block !important; */ 
-        box-shadow: -2px 1px 5px rgb(33, 33, 33);
+        box-shadow: -3px 2px 5px rgb(33, 33, 33);
     }
     .sidebar-menu div {
         width: 100%;
@@ -313,7 +321,7 @@ ul li a {
         align-items: center;
     }
     .sidebar-menu div:hover {
-        background-color: #654E92;
+        background-color: rgb(101, 78, 146);
     }
     .sidebar-menu a {
         text-decoration: none;
