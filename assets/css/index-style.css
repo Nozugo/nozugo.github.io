@@ -80,7 +80,7 @@ ul li a:active {
     background-color: rgb(6, 9, 14);
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
@@ -88,6 +88,7 @@ ul li a:active {
 .banner-title {
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 
 .banner-title-container {
@@ -104,7 +105,7 @@ ul li a:active {
 
 .banner-title-container h1 {
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 60px;
     color: white;
     margin-right: 20px;
 }
@@ -224,7 +225,7 @@ ul li a:active {
 
 /* Responsive */
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1280px) {
 
     
     /* Banner */
@@ -234,6 +235,9 @@ ul li a:active {
     }
     .banner-btn {
         display: none;
+    }
+    .banner-title {
+        margin-left: 0;
     }
     .banner-title-container {
         margin-right: 0;
@@ -272,7 +276,7 @@ ul li a:active {
 
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 768px) {
 
     nav ul {
         display: none;
