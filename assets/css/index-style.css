@@ -41,7 +41,7 @@ ul li::after {
     content: '';
     display: block;
     width: 100%;
-    height: 1px;
+    height: 2px;
     background-color: #8b6cc9;
     transform: scaleX(0);
     transform-origin: bottom right;
