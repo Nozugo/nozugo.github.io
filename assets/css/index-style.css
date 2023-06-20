@@ -317,9 +317,9 @@ ul li a:active {
         align-items: center;
         justify-content: center;
     }
-    .hamburger-menu:hover {
+    /* .hamburger-menu:hover {
         background-color: #654E92;
-    }
+    } */
     .line-1, .line-2, .line-3 {
         width: 30px;
         display: block !important;
