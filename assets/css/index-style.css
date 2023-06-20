@@ -90,6 +90,7 @@ ul li a:active {
 .sidebar-menu p:hover {
     background-color: #654E92;
 }
+
 /* Banner */
 
 .title span {
@@ -199,6 +200,7 @@ ul li a:active {
 }
 
 /* About Me */
+
 .about-me {
     width: 100%;
     height: 600px;
@@ -251,6 +253,7 @@ ul li a:active {
 @media only screen and (max-width: 1280px) {
 
     /* Banner */
+
     .banner {
         flex-direction: column;
         justify-content: center;
@@ -281,6 +284,7 @@ ul li a:active {
     }
 
     /* About Me */
+
     .about-me-body {
         flex-direction: column;
         align-items: center;
@@ -295,7 +299,6 @@ ul li a:active {
     .about-me-text p {
         text-align: center;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -317,9 +320,6 @@ ul li a:active {
         align-items: center;
         justify-content: center;
     }
-    /* .hamburger-menu:hover {
-        background-color: #654E92;
-    } */
     .line-1, .line-2, .line-3 {
         width: 30px;
         display: block !important;
@@ -341,8 +341,8 @@ ul li a:active {
     }
 
     /* Sidebar */
+
     .sidebar-menu {
-        /* display: block !important; */ 
         box-shadow: -3px 2px 5px rgb(33, 33, 33);
     }
     .sidebar-menu a {
@@ -394,4 +394,21 @@ ul li a:active {
     .about-me-text p {
         font-size: 16px;        
     }
+}
+
+.parent {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 100px auto;
+}
+.parent::after {
+    content: 'test';
+    position: relative;
+    top: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: purple;
 }
